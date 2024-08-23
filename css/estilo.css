@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
+    font-family: 'Oleo Script', sans-serif;
+    background: #deb393;
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    background:#017ead;
+    position: fixed;
+}
+
+.logo{
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
 }
