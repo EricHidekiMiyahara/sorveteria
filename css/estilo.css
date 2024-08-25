@@ -101,6 +101,16 @@ body{
     font-family: 'Pacifico', cursive;
 }
 
+.contact-btn{
+    text-decoration: none;
+    background: #462a20;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Oleo Sript';
+
+}
+
 .img-headline{
     flex: 40%;
     margin-right: 10%;
@@ -111,4 +121,11 @@ body{
 .img-headline img{
     height: 400px;
     width: 500px;
+}
+
+.img-headline a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 12px;
 }
