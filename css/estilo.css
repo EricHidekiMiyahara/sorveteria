@@ -25,7 +25,7 @@ body{
     flex: 20%;
     text-align: left;
     margin-left: 10%;
-    color: white;
+    color: #a8d5a2;
 }
 
 .menu {
@@ -38,7 +38,7 @@ body{
     text-decoration: none;
     padding: 10px;
     font-size: 20px 20px;
-    color: #c7e1ee;
+    color: #462a20;
 }
 
 .menu .sabor1:hover{
@@ -48,37 +48,31 @@ body{
 }
 
 .menu .sabor2:hover{
-    background-image: linear-gradient(45deg, rgba(150, 75, 0, 1) 0%, rgba(210, 105, 30, 1) 50%, rgba(255, 228, 196, 1) 100%);
+    background-image: linear-gradient(to right, #f3e5ab, #f5deb3);
     border-radius: 20px;
     padding: 18px;
 }
 
 .menu .sabor3:hover{
-    background-image: linear-gradient(45deg, rgba(150, 75, 0, 1) 0%, rgba(210, 105, 30, 1) 50%, rgba(255, 228, 196, 1) 100%);
+    background-image: linear-gradient(to right, #f5d5dc, #fffdd0);
     border-radius: 20px;
     padding: 18px;
 }
 
 .menu .sabor4:hover{
-    background-image: linear-gradient(45deg, rgba(150, 75, 0, 1) 0%, rgba(210, 105, 30, 1) 50%, rgba(255, 228, 196, 1) 100%);
+    background-image: linear-gradient(to right,#ff9aa2, #ff6f91);
     border-radius: 20px;
     padding: 18px;
 }
 
 .menu .sabor5:hover{
-    background-image: linear-gradient(45deg, rgba(150, 75, 0, 1) 0%, rgba(210, 105, 30, 1) 50%, rgba(255, 228, 196, 1) 100%);
-    border-radius: 20px;
-    padding: 18px;
-}
-
-.menu .sabor6:hover{
-    background-image: linear-gradient(45deg, rgba(150, 75, 0, 1) 0%, rgba(210, 105, 30, 1) 50%, rgba(255, 228, 196, 1) 100%);
+    background-image: linear-gradient(to right, #f3e5ab, #ff9aa2, #7b3f00);
     border-radius: 20px;
     padding: 18px;
 }
 
 .menu .sabor7:hover{
-    background-image: linear-gradient(45deg, rgba(150, 75, 0, 1) 0%, rgba(210, 105, 30, 1) 50%, rgba(255, 228, 196, 1) 100%);
+    background-image: linear-gradient(to right, #c7e6b2, #a8d5a2);
     border-radius: 20px;
     padding: 20px;
 }
@@ -108,7 +102,10 @@ body{
     border-radius: 5px;
     color: white;
     font-family: 'Oleo Sript';
+}
 
+.contact-btn:hover{
+    background: #017ead;
 }
 
 .img-headline{
@@ -128,4 +125,39 @@ body{
     text-align: center;
     display: block;
     font-size: 12px;
+}
+
+section {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 25px;
+    margin:0;
+    font-weight: bold;
+    color:#017ead;
+}
+
+.sabores{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display:inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    color: white;
+    border: 1px solid #462a20;
+    border-radius: 10px;
+}
+
+.card-text {
+    
 }
