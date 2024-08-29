@@ -179,3 +179,15 @@ section h2{
 .img-oculta{
     display: none;
 }
+
+footer{
+    margin-top: 50px;
+    background-image: linear-gradient(180deg, );
+    text-align:center;
+    height: 200px;
+    border-top: 5px solid #7b3f00;
+}
+
+.logo-rodape{
+    padding: 100px;
+}
