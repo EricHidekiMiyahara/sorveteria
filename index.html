@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,128 +8,129 @@
     <meta name="keywords" content="sorveteria, sabores, preços, HTML, CSS">
     <meta name="description" content="Um site fake sobre alguns sabores de sorvete.">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"
+        integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <link rel="icon" type="image/x-icon" href="icon/ice-cream.png">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/responsivo.css">
-    
+
 </head>
 
 <body>
-    
+
     <nav class="navbar">
         <div class="logo">
             <h1>Sorveteria Fake</h1>
         </div>
 
-    <div class="menu">
-        <b><a class="chocolate" href="#">Chocolate</a>
-        <a class="baunilha"
-        href="#">Baunilha</a>
-        <a class="creme"
-        href="#">Creme</a>
-        <a class="morango"
-        href="#">Morango</a>
-        <a class="napolitano"
-        href="#">Napolitano</a>
-        <a class="pistache"
-        href="#">Pistache</a></b>
-    </div>
+        <div class="menu">
+            <b><a class="chocolate" href="#">Chocolate</a>
+                <a class="baunilha" href="#">Baunilha</a>
+                <a class="creme" href="#">Creme</a>
+                <a class="morango" href="#">Morango</a>
+                <a class="napolitano" href="#">Napolitano</a>
+                <a class="pistache" href="#">Pistache</a></b>
+        </div>
     </nav>
 
     <header class="header">
         <div class="headline">
-            <h2 style="letter-spacing: 5px;">Frios e Saborosos!</h2> 
-            <b><h1>O Melhor Sorvete ao seu Alcance!</h1></b>
-            <a class="contact-btn" style="text-transform: uppercase;" href="https://www.linkedin.com/in/eric-miyahara-2b8716247/" target="_blank">Experimente agora</a>
+            <h2 style="letter-spacing: 5px;">Frios e Saborosos!</h2>
+            <b>
+                <h1>O Melhor Sorvete ao seu Alcance!</h1>
+            </b>
+            <a class="contact-btn" style="text-transform: uppercase;"
+                href="https://www.linkedin.com/in/eric-miyahara-2b8716247/" target="_blank">Experimente agora</a>
         </div>
 
         <div class="img-headline">
             <img src="img/sorvetes.png" alt="imagem de sorvetes">
 
-           <a href="https://chatgpt.com">Fonte: ChatGpt</a>
+            <a href="https://chatgpt.com">Fonte: ChatGpt</a>
         </div>
 
         <section class="section">
             <h2>Qual sabor de sorvete você gostaria de experimentar hoje?</h2>
             <div class="sabores">
                 <div class="card">
-                    <img src="icon/ice-cream-chocolate.png">
+                    <img src="icon/ice-cream-chocolate.png" class="icon">
                     <div class="card-text">
-                    <h3>Chocolate</h3>
-                    <p><b>Chocolate Belga Artesanal</b></p><p>Intensidade e cremosidade em cada colherada. Preço: R$13 reais.</p>
-                    </div>
-                    <div class="img-oculta">
-                        <img src="img/sorvete-chocolate.jpg" alt="sorvete de chocolate">
-                    </div>
-                </div>  
-                <div class="card">
-                    <img src="icon/ice-cream-baunilha.png">
-                    <div class="card-text">
-                    <h3>Baunilha</h3>
-                    <p><b>Baunilha artesanal</b></p><p>Um sabor único e inigualável. <br>Preço: R$15 reais!</p>
-                    </div>
-                    <div class="img-oculta">
-                        <img src="img/sorvete-baunilha.jpg" alt="sorvete de baunilha">
+                        <h3>Chocolate</h3>
+                        <p><b>Chocolate Belga Artesanal</b></p>
+                        <p>Intensidade e cremosidade em cada colherada. Preço: R$13 reais.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="icon/ice-cream-creme.png">
+                    <img src="icon/ice-cream-baunilha.png" class="icon">
                     <div class="card-text">
-                    <h3>Creme</h3>
-                    <p><b>Sorvete de Creme premium</b></p><p>O clássico que nunca sai de moda! <br>Preço: R$15 reais.</p>
-                    </div>
-                    <div class="img-oculta">
-                        <img src="img/sorvete-creme.jpg" alt="sorvete de creme">
+                        <h3>Baunilha</h3>
+                        <p><b>Baunilha artesanal</b></p>
+                        <p>Um sabor único e inigualável. <br>Preço: R$15 reais!</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="icon/ice-cream-morango.png">
+                    <img src="icon/ice-cream-creme.png" class="icon">
                     <div class="card-text">
-                    <h3>Morango</h3>
-                    <p><b>Morango artesanal</b></p>
-                    <p>Saboreie a doçura natural do morango em cada colherada. <br>Preço: R$ 14 reais.</p>
-                    </div>
-                    <div class="img-oculta">
-                        <img src="img/sorvete-morango.jpg" alt="sorvete de morango">
+                        <h3>Creme</h3>
+                        <p><b>Sorvete de Creme premium</b></p>
+                        <p>O clássico que nunca sai de moda! <br>Preço: R$15 reais.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="icon/ice-cream-napolitano.png">
+                    <img src="icon/ice-cream-morango.png" class="icon">
                     <div class="card-text">
-                    <h3>Napolitano</h3>
-                    <p><b>Napolitano artesanal</b></p><p>O trio perfeito: creme, chocolate e morango em um único pote.
-                    <br>
-                    Preço: R$14 reais.</p>
-                    </div>
-                    <div class="img-oculta">
-                        <img src="img/sorvete-napolitano.jpg" alt="sorvete de napolitano">
+                        <h3>Morango</h3>
+                        <p><b>Morango artesanal</b></p>
+                        <p>Saboreie a doçura natural do morango em cada colherada. <br>Preço: R$ 14 reais.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="icon/ice-cream-pistache.png">
+                    <img src="icon/ice-cream-napolitano.png" class="icon">
                     <div class="card-text">
-                    <h3>Pistache</h3>
-                    <p><b>Sorvete de pistache premium</b></p><p>Saboreie a sofisticação do pistache em cada colherada.<br>
-                    Preço: R$15 reais.</p>
+                        <h3>Napolitano</h3>
+                        <p><b>Napolitano artesanal</b></p>
+                        <p>O trio perfeito: creme, chocolate e morango em um único pote.
+                            <br>
+                            Preço: R$14 reais.
+                        </p>
                     </div>
-                    <div class="img-oculta">
-                        <img src="img/sorvete-pistache.jpg" alt="sorvete de pistache">
+                </div>
+                <div class="card">
+                    <img src="icon/ice-cream-pistache.png" class="icon">
+                    <div class="card-text">
+                        <h3>Pistache</h3>
+                        <p><b>Sorvete de pistache premium</b></p>
+                        <p>Saboreie a sofisticação do pistache em cada colherada.<br>
+                            Preço: R$15 reais.</p>
                     </div>
                 </div>
             </div>
         </section>
-        </header>
-        
-        <footer>
-            <div class="logo-rodape">
-                <h1 class="agencia">Sorveteria Fake</h1>
-                <p class="paragrafo"style="color: white">Um site feito com HTML e CSS puros</p>
-            </div>
-            <b class="bold">©Copyright 2024 Eric Miyahara</b>
-        </footer>
-            
-        <a class="whats" target="_blank" href="https://wa.me/5561981586475?text=Ol%C3%A1%20peguei%20seu%20contato%20no%20site%20">
-            <img style="width: 80px" src="img/whats.png" alt="Ícone do WhatsApp">
-        </a>
+    </header>
+
+    <footer>
+        <div class="logo-rodape">
+            <h1 class="agencia">Sorveteria Fake</h1>
+            <p class="paragrafo" style="color: white">Um site feito com HTML e CSS puros</p>
+        </div>
+        <b class="bold">©Copyright 2024 Eric Miyahara</b>
+    </footer>
+
+    <a class="whats" target="_blank"
+        href="https://wa.me/5561981586475?text=Ol%C3%A1%20peguei%20seu%20contato%20no%20site%20">
+        <img style="width: 80px" src="img/whats.png" alt="Ícone do WhatsApp">
+    </a>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5
+        });
+    </script>
 </body>
+
 </html>
