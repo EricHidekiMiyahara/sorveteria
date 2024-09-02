@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     font-family: 'Merriweahter', serif;
     background: #222831;
@@ -16,20 +16,20 @@ body{
 .navbar {
     display: flex;
     height: 100px;
-    width:100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    background:#333333;
+    background: #333333;
     position: fixed;
 }
 
-.logo{
+.logo {
     flex: 20%;
     text-align: left;
     margin-left: 10%;
 }
 
-.logo h1{
+.logo h1 {
     color: #F2A33A;
     font-family: 'Playfair Display', serif;
 }
@@ -40,44 +40,44 @@ body{
     margin: 9%;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     padding: 10px;
     font-size: 20px 20px;
     color: #F2A33A;
 }
 
-.menu .chocolate:hover{
+.menu .chocolate:hover {
     background-image: linear-gradient(45deg, rgba(150, 75, 0, 1) 0%, rgba(210, 105, 30, 1) 50%, rgba(255, 228, 196, 1) 100%);
     border-radius: 20px;
     padding: 18px;
 }
 
-.menu .baunilha:hover{
+.menu .baunilha:hover {
     background-image: linear-gradient(to right, #f3e5ab, #f5deb3);
     border-radius: 20px;
     padding: 18px;
 }
 
-.menu .creme:hover{
+.menu .creme:hover {
     background-image: linear-gradient(to right, #f5d5dc, #fffdd0);
     border-radius: 20px;
     padding: 18px;
 }
 
-.menu .morango:hover{
-    background-image: linear-gradient(to right,#ff9aa2, #ff6f91);
+.menu .morango:hover {
+    background-image: linear-gradient(to right, #ff9aa2, #ff6f91);
     border-radius: 20px;
     padding: 18px;
 }
 
-.menu .napolitano:hover{
+.menu .napolitano:hover {
     background-image: linear-gradient(to right, #f3e5ab, #ff9aa2, #7b3f00);
     border-radius: 20px;
     padding: 18px;
 }
 
-.menu .pistache:hover{
+.menu .pistache:hover {
     background-image: linear-gradient(to right, #c7e6b2, #a8d5a2);
     border-radius: 20px;
     padding: 20px;
@@ -91,7 +91,7 @@ body{
     padding-top: 100px;
 }
 
-.headline{
+.headline {
     margin-left: 10%;
     flex: 43%;
     color: #8B4513;
@@ -107,7 +107,7 @@ body{
     color: #F2A33A;
 }
 
-.contact-btn{
+.contact-btn {
     text-decoration: none;
     background: #E9C46A;
     padding: 10px;
@@ -116,23 +116,23 @@ body{
     font-family: 'Oleo Sript';
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
     background: #8B4513;
 }
 
-.img-headline{
+.img-headline {
     flex: 40%;
     margin-right: 7%;
     max-width: 100%;
     max-height: 100%;
 }
 
-.img-headline img{
+.img-headline img {
     height: 400px;
     width: 510px;
 }
 
-.img-headline a{
+.img-headline a {
     text-decoration: none;
     text-align: center;
     display: block;
@@ -149,28 +149,28 @@ section {
     transform-style: preserve-3d;
 }
 
-section h2{
+section h2 {
     width: 100%;
     font-size: 25px;
-    margin:0;
+    margin: 0;
     font-weight: bold;
-    color:#E9C46A;
+    color: #E9C46A;
     transform-style: preserve-3d;
 
 }
 
-.sabores{
+.sabores {
     display: inline-block;
     margin-top: 5%;
     transform-style: preserve-3d;
 
 }
 
-.card{
-    display:inline-block;
+.card {
+    display: inline-block;
     width: 30%;
     padding: 20px;
-    margin:1%;
+    margin: 1%;
     cursor: pointer;
     color: white;
     border: 1px solid #E9C46A;
@@ -179,44 +179,44 @@ section h2{
 
 }
 
-.card:hover{
+.card:hover {
     padding: 70px;
     transform-style: preserve-3d;
 
 }
 
-.icon{
+.icon {
     transform: translate3d(0, 0, 100px);
     transition: .10s;
 }
 
-footer{
+footer {
     margin-top: 50px;
     background-image: linear-gradient(0deg, #222831, #333333);
-    text-align:center;
+    text-align: center;
     height: 100px;
     border-top: 5px solid #7b3f00;
 }
 
-.logo-rodape{
+.logo-rodape {
     padding: 100px;
 }
 
-.agencia{
-    color:white;
+.agencia {
+    color: white;
     font-size: 34px;
 }
 
-.paragrafo{
+.paragrafo {
     color: white;
 }
 
-.bold{
+.bold {
     color: white;
 }
 
 .whats {
     position: fixed;
-    bottom:5px;
-    right:5px;
+    bottom: 5px;
+    right: 5px;
 }
