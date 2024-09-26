@@ -19,40 +19,15 @@
 
 <h2 id="about">📌 Sobre</h2>
 
-Este site foi criado com o objetivo de fornecer informações resumidas sobre os mapas do Counter-Strike (CS2). Aqui, você pode pesquisar seus mapas favoritos e conhecer mais sobre eles!
+O site "Sorveteria Fake" apresenta uma interface simples com sorvetes artesanais em sabores populares, como chocolate, baunilha e pistache, com preços entre R$13 e R$15. Ele é um exemplo fictício, criado como um projeto com HTML e CSS, mostrando uma possível loja de sorvetes online.
 
-Basta realizar a pesquisa pelo nome do mapa que procura. A busca pode ser realizada por palavras-chave, mas é sempre recomendado digitar o nome corretamente para obter os melhores resultados. Caso não encontre o mapa em minha base de dados, me envie um e-mail para que possamos ajustar a página e incluir esses dados.
+Você pode acessá-lo [aqui](https://sorveteriafake.vercel.app).
 
-<h2 id="started">Instrução de uso</h2>
-
-Aqui você decide como rodar seu próprio projeto.
-
-<h3>Pré-requisitos</h3>
-
-Aqui está a lista de todos os pré-requisitos necessários para rodar seu projeto. Por exemplo:
-
-- Instalação do [Visual Studio Code (VS Code)](https://code.visualstudio.com/download)
-- Instalação da imagem background.jpeg da pasta img, localizado no meu [repositório](https://github.com/EricHidekiMiyahara/mapasCS2/tree/main/img).
-- Instalação dos ícones globo.png, instagram.png e linkedin.png, localizados no meu [repositório](https://github.com/EricHidekiMiyahara/mapasCS2/tree/main/icon).
-
-<h3>Tutorial</h3>
-
-1. Crie o arquivo index.html.
-2. Crie o arquivo styles.css.
-3. Crie o arquivo index.js.
-4. Crie o arquivo dados.js.
-5. Crie a pasta img.
-6. Dentro da pasta img, anexe a imagem background.jpeg.
-7. Crie a pasta icon.
-8. Dentro da pasta icon, anexe os ícones globo.png, instagram.png e linkedin.png.
-
-<h3 id="technologies">Tecnologias utilizadas</h3>
+<h2 id="technologies">Tecnologias utilizadas</h2>
 
 - **HTML5:** Estrutura da página. 🌐
 - **CSS3:** Estilização e animações. 🎨
-- **JavaScript:** Funcionalidades interativas. 💻
 - **EmojiPedia:** Para os ícones. 👍
-- **Gemini:** Prompts de comandos. 💻
 
 <h2 id="contribute">📫 Contribuição</h2>
 
@@ -60,7 +35,7 @@ Agradeço a contribuição para o projeto. Se você está corrigindo um bug, adi
 
 1. **Criar uma nova funcionalidade**
 
-A adição das respectivas imagens com os cards do mapa é um boa ideia para tornar a busca mais elegante e informativa visualmente.
+A adição das respectivas imagens com os cards do site é um boa ideia para tornar o site mais atrativo visualmente.
 
 2. **Siga os padrões de codificação**
 
@@ -72,6 +47,6 @@ Irei rever a sua solicitação de pull. Participe da discussão e faça as alter
 
 <h3 id="links">Links Úteis</h3>
 
-- [Layout](https://github.com/guilhermeonrails/olimpiadas-github)
-- [Layout como referência](https://github.com/jeferson-paz/projeto_final_alura_gemini)
-- [Projeto]()
+- [Projeto](https://sorveteriafake.vercel.app)
+- [Layout](https://www.youtube.com/watch?v=6gRtjwD2w88&list=PL2Fdisxwzt_f5C7Mv0kg1EAHhy2VJLf1c)
+- [Layout como referência](https://github.com/EricHidekiMiyahara/facas-doppler)
