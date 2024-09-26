@@ -19,7 +19,7 @@
 
 <h2 id="about">📌 Sobre</h2>
 
-O site "Sorveteria Fake" apresenta uma interface simples com sorvetes artesanais em sabores populares, como chocolate, baunilha e pistache, com preços entre R$13 e R$15. Ele é um exemplo fictício, criado como um projeto com HTML e CSS, mostrando uma possível loja de sorvetes online.
+O site "Sorveteria Fake" apresenta uma interface simples com sorvetes artesanais em sabores populares, como chocolate, baunilha e pistache, com preços entre R$13 e R$15. Ele é um exemplo fictício, criado como um projeto com HTML e CSS, mostrando uma possível loja de sorvetes online. Um detalhe importante é que foi usado um efeito 3D em todos os 6 cards a partir de um código do JavaScript interno.
 
 Você pode acessá-lo [aqui](https://sorveteriafake.vercel.app).
 
