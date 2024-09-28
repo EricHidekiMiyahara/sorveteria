@@ -26,14 +26,29 @@
         max-width: 100%;
         max-height: 100%;
     }
-    .container .card{
+    .container .card1{
         width: 100%;
         margin-bottom: 4vh;
     }
-    .container .card:hover{
+    .container .card2{
         width: 100%;
         margin-bottom: 4vh;
-        transform-style: none;
+    }
+    .container .card3{
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+    .container .card4{
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+    .container .card5{
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+    .container .card6{
+        width: 100%;
+        margin-bottom: 4vh;
     }
     .whats{
         display: none;
