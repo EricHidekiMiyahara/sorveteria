@@ -33,6 +33,7 @@
     .container .card:hover{
         width: 100%;
         margin-bottom: 4vh;
+        transform-style: none;
     }
     .whats{
         display: none;
