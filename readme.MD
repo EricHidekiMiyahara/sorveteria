@@ -19,7 +19,7 @@
 
 <h2 id="about">📌 Sobre</h2>
 
-O site "Sorveteria Fake" apresenta uma interface simples com sorvetes artesanais em sabores populares, como chocolate, baunilha e pistache, com preços entre R$13 e R$15. Ele é um exemplo fictício, criado como um projeto com HTML e CSS, mostrando uma possível loja de sorvetes online. Um detalhe importante é que foi usado um efeito 3D em todos os 6 cards a partir de um código do JavaScript interno. Em geral, o segredo da responsividade para dispositivos móveis é que é necessário mecher o celular de um lado para o outro, pois só assim daria para ver o efeito 3D.
+O site fictício "Sorveteria Fake" apresenta uma interface simples e atraente, destacando sorvetes artesanais em sabores clássicos como chocolate, baunilha e pistache, com preços variando entre R$13 e R$15. Desenvolvido como um projeto demonstrativo em HTML e CSS, o site simula uma loja online de sorvetes. Um diferencial interessante é o efeito 3D aplicado aos seis cards de produtos, implementado com JavaScript interno, proporcionando uma experiência visual envolvente. Para dispositivos móveis, o segredo da responsividade está na interação: o efeito 3D é ativado ao mover o celular de um lado para o outro, criando uma dinâmica única de visualização.
 
 Você pode acessá-lo [aqui](https://sorveteriafake.vercel.app).
 
